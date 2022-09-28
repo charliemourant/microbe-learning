@@ -1,0 +1,25 @@
+{
+  "loginSelect": {
+    "userLogin":"[data-testid='button']",
+    "username": "input[id='username']",
+    "password": "input[name='password']",
+    "submit": "input[type='submit']",
+    "showPasswordEye": "i"
+  },
+  "sidebarSelect": {
+    "title": "data-e2e=['applicationName']"
+  },
+  "homeSelect": {
+    "section": "section[data-testid='home-page']",
+    "title" : "h1",
+    "button":"[data-testid='Button']"
+  },
+  "modalSelect" : {
+    "container" : "#modal-container",
+    "closeButton": "[data-testid='modal-close']",
+    "content": "[data-testid='modal']",
+    "title": "h2",
+    "message": "p",
+    "actionButton": "[data-testid='Button']"
+  }
+}
